@@ -9,5 +9,6 @@ func main () {
 }
 
 func foo() {
-	fmt.Println("And back atcha")
+	var i,_ = fmt.Println("And back atcha")
+	fmt.Println("We wrote ", i, "characters in funcion foo but ignored any errors")
 }
