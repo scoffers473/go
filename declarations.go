@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+var outside = "global var" // Use var when defining outside a func
 func main() {
 
 	x := 42 // Use := for first declaration and assignment
@@ -12,4 +13,5 @@ func main() {
 	fmt.Println(y)
 	z := "Chris S"
 	fmt.Println(z)
+	fmt.Println(outside)
 }
