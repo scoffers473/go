@@ -38,6 +38,9 @@ func main() {
 		fmt.Println("Nope!")
 	}
 
+
+	// Now delete an entry
+	delete(m,"Miss Moneypenny")
 	// Range over te map
 	for key,val := range m {
 		fmt.Println(val,key)
